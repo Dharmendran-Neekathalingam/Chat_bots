@@ -1,0 +1,22 @@
+def chatbot():
+    #Simple responces
+    responses = {
+        "hi": "Hi, Welcome to 20 years best Flower Purchase experience",
+        "hello": "Hi there!  Welcome to 20 years best Flower Purchase experience",
+        "Need contacts": "The contact Ph no: +91 99xxxxxxx8",
+        "how are you": "I'm just a bot, but I'm doing great! How about you?",
+        "help": "I can answer simple questions about your order. Try asking me something!",
+    }
+
+    print("Chatbot: Hi,This is Lingam's Flower Store. How can we help?  Type 'bye' to exit.")
+    
+    while True:
+        user_input = input("You: ").lower()  # Convert input to lowercase
+        if user_input == "bye" or user_input == "exit":
+            print("Chatbot: Bye! We Expect you back")
+            break
+        response = responses.get(user_input, "I'm not sure how to respond to that.")
+        print(f"Chatbot: {response}")
+
+# Run the chatbot
+chatbot()
