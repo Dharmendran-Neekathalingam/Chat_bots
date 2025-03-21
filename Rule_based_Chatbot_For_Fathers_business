@@ -3,8 +3,11 @@ def chatbot():
     responses = {
         "hi": "Hi, Welcome to 20 years best Flower Purchase experience",
         "hello": "Hi there!  Welcome to 20 years best Flower Purchase experience",
-        "Need contacts": "The contact Ph no: +91 99xxxxxxx8",
-        "how are you": "I'm just a bot, but I'm doing great! How about you?",
+        "need contact": "The contact Ph no: +91 99xxxxxxx8",
+        "contact information": "The contact Ph no: +91 99xxxxxxx8",
+        "how are you": "I'm doing great! How about you?",
+        "owner name":"My Boss is Neerkathalingam",
+        "boss name": "My Boss is Neerkathalingam",
         "help": "I can answer simple questions about your order. Try asking me something!",
     }
 
